@@ -10,7 +10,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
-  Researched answer:
+  Researched answer: A set of instructions executed a specific number of times or until a condition is met
 
 
 
@@ -18,7 +18,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
-  Researched answer:
+  Researched answer: Map takes value, index, array as predefined parameters. Value is required and index and array are optional.
 
 
 
@@ -26,7 +26,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
-  Researched answer:
+  Researched answer: Extract properties (key) from objects and create variables that are assigned the path to the value
 
 
 
@@ -34,7 +34,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
-  Researched answer:
+  Researched answer: Functions are reusable code that return an output, methods are function that belong to a class/object
 
 
 
@@ -42,7 +42,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
-  Researched answer:
+  Researched answer: Objects are collections of key:value pairs, classes are templates for creating objects
 
 
 
@@ -50,7 +50,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
-  Researched answer:
+  Researched answer: JavaScript will take certain variables and functions to the top of the call stack
 
 
 
@@ -58,12 +58,12 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Research and define the following terms to the best of your ability.
 
-1. Class Inheritance:
+1. Class Inheritance: Creating parent/child class relationships
 
-2. React:
+2. React: JavaScript framework/library used to build dynamic UI/UX
 
-3. React state:
+3. React state: Object that determines how a component renders and behaves
 
-4. React lifecycle methods:
+4. React lifecycle methods: Built in React methods for React class components
 
-5. DOM:
+5. DOM: Document Object Model, visual representation of your code
