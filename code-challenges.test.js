@@ -10,6 +10,7 @@
 // Reminder: The test will call your function
 // Run the file with the following command: $ yarn jest
 
+// Template:
 // describe("", () => {
 //   test("", () => {
 //     expect().toEqual()
@@ -109,13 +110,13 @@ describe("firstVowel", () => {
 
 // b) Create the function that makes the test pass.
 
-const firstVowel = (string) => {
-  for(let i=0; i<string.length; i++){
-    if(string[i] === 'a' || string[i] === 'e' || string[i] === 'i' || string[i] === 'o' || string[i] === 'u'){
-      return i
-    }
-  }
-}
+// const firstVowel = (string) => {
+//   for(let i=0; i<string.length; i++){
+//     if(string[i] === 'a' || string[i] === 'e' || string[i] === 'i' || string[i] === 'o' || string[i] === 'u'){
+//       return i
+//     }
+//   }
+// }
 
 // const firstVowel = (string) => {
 //   let vowels = "aeiouAEIOU"
@@ -129,14 +130,9 @@ const firstVowel = (string) => {
 // }
 
 // Exploring regular expressions (regex)
-// Code WIP
-// const firstVowel = (string) => {
-//   for(let i=0; i<string.length; i++){
-//     console.log(string.match(/[aeiou]/))
-//     if(string.length === string.match(/[aeiou]/)){
-//       var vowelMatch = string.match(/[aeiou]/)
-//       console.log(vowelMatch)
-//       return string.indexOf(vowelMatch)
-//     }
-//   }
-// }
+// https://www.codegrepper.com/code-examples/javascript/how+to+count+vowels+in+a+string+with+index+in+javascript
+// https://www.w3schools.com/jsref/jsref_regexp_g.asp
+const firstVowel = (string) => {
+  let vowels = string.match(/[aeiou]/g)
+  return string.indexOf(vowels[0])
+}
